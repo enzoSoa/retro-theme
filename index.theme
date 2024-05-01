@@ -1,12 +1,8 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Gruvbox-Dark
-Comment=An Flat Gtk+ theme based on Elegant Design
+Name=Retro-Theme
+Comment=A retro ms dos inspired GTK theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Gruvbox-Dark
-MetacityTheme=Gruvbox-Dark
-IconTheme=Gruvbox-Dark
-CursorTheme=Gruvbox-cursors
-ButtonLayout=close,minimize,maximize:menu
+GtkTheme=Retro-Theme
