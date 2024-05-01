@@ -1,4 +1,220 @@
+/* Topbar */
 #panel {
     margin: 0 19px 0 19px;
     box-shadow: 0 0 0 3px #ffffff;
+}
+
+#panel #panel .panel-button {
+    color: #ffffff;
+    border-radius: 0;
+}
+
+#panel .panel-button:hover {
+    background: #000000;
+}
+
+#panel .panel-button:active {
+    background: #202020;
+}
+
+#panel .panel-button:hover,
+#panel .panel-button:active {
+    border-radius: 0;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+#panel .panel-button.clock-display:hover .clock,
+#panel .panel-button.clock-display:active .clock {
+    background: none;
+    box-shadow: none;
+}
+
+#panel:overview {
+    background: transparent;
+    box-shadow: none;
+}
+
+#panel:overview .panel-button {
+    background: transparent;
+    box-shadow: none;
+}
+
+/* Popup */
+
+.popup-menu-content {
+    background: #000000;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    margin-top: 16px;
+}
+
+.popup-menu .button {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 0;
+    border: 3px solid transparent;
+}
+
+.popup-menu .button:hover {
+    border: 3px solid #000000;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+
+.datemenu-today-button {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 0;
+}
+
+.modal-dialog,
+.calendar .calendar-today {
+    background: #000000;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 0;
+}
+
+.calendar .calendar-day:hover {
+    border-radius: 0;
+    background: #202020;
+}
+
+.quick-toggle-menu .header .icon {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 0;
+}
+
+.quick-toggle-menu {
+    background: #202020;
+    color: #ffffff;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+}
+
+/* Input */
+
+StEntry {
+    background: #202020;
+    border-radius: 0;
+    border: none;
+}
+
+.icon-button {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 0;
+    border: 3px solid transparent;
+}
+
+.icon-button:hover {
+    border-color: #000000;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+.slider {
+    -barlevel-height: 8px;
+    -barlevel-background-color: #202020;
+    -barlevel-active-background-color: #ffffff;
+    -barlevel-overdrive-color: #ff0000;
+    -barlevel-overdrive-separator-width: 2px;
+}
+
+/* Dash */
+
+.dash-background {
+    border-radius: 0;
+    background: #202020;
+    border: 3px solid #ffffff;
+}
+
+.dash-label {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 0;
+}
+
+.dash-separator {
+    width: 3px;
+    background: #ffffff;
+}
+
+.show-apps .overview-icon,
+.app-well-app .overview-icon {
+    border-radius: 0;
+    border: 3px solid transparent;
+}
+
+.show-apps:hover .overview-icon,
+.app-well-app:hover .overview-icon {
+    border-color: #ffffff;
+    background: none;
+}
+
+.calendar .pager-button {
+    background: #ffffff;
+    color: #000000;
+    border: 3px solid transparent;
+    border-radius: 0;
+    margin-bottom: 16px;
+}
+
+.calendar .pager-button:hover {
+    border-color: #000000;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+/* Apps */
+
+.app-well-app.app-folder .overview-icon {
+    background: transparent;
+}
+
+.app-well-app.app-folder {
+    border: 3px solid transparent;
+}
+
+.app-well-app.app-folder:hover {
+    border-color: #ffffff;
+}
+
+.app-folder-dialog {
+    border: 3px solid #ffffff;
+    background: #000000;
+    border-radius: 0;
+}
+
+.app-folder-dialog .folder-name-container .edit-folder-button {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 0;
+    border: 3px solid transparent;
+}
+
+.app-folder-dialog .folder-name-container .edit-folder-button:hover {
+    border-color: #000000;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+.search-section-content {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 0;
+    background: #202020;
+}
+
+.search-entry {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    background: #202020;
+    border-radius: 0;
+}
+
+#overviewGroup {
+    background: #000000;
+}
+
+.osd-window {
+    border-radius: 0;
 }
