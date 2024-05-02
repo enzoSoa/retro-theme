@@ -156,6 +156,9 @@ StEntry {
     background: none;
 }
 
+.weather-button,
+.events-button,
+.world-clocks-button,
 .calendar .pager-button {
     background: #ffffff;
     color: #000000;
@@ -164,6 +167,9 @@ StEntry {
     margin-bottom: 16px;
 }
 
+.weather-button:hover,
+.events-button:hover,
+.world-clocks-button:hover,
 .calendar .pager-button:hover {
     border-color: #000000;
     box-shadow: 0 0 0 3px #ffffff;
@@ -220,5 +226,20 @@ StEntry {
 }
 
 .osd-window {
+    border-radius: 0;
+}
+
+/* Notifications */
+
+.message {
+    background: #000000;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 0;
+}
+
+.message .message-close-button {
+    background: #ffffff;
+    color: #000000;
     border-radius: 0;
 }
