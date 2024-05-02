@@ -48,14 +48,18 @@
     margin-top: 16px;
 }
 
-.popup-menu .button {
+.popup-menu .button,
+.modal-dialog-button,
+.modal-dialog-linked-button {
     background: #ffffff;
     color: #000000;
     border-radius: 0;
     border: 3px solid transparent;
 }
 
-.popup-menu .button:hover {
+.popup-menu .button:hover,
+.modal-dialog-button:hover,
+.modal-dialog-linked-button:hover {
     border: 3px solid #000000;
     box-shadow: 0 0 0 3px #ffffff;
 }
